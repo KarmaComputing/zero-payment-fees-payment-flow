@@ -1,6 +1,6 @@
 # Zero Fees Payment Collection
 
-> This approach may be suitable for business-to-business (B2B) payments which want an alternative to paying opaque and complicated card fees. This approach has the advantage of zero transaction fees, but is more suited to B2B transactions as it required the bill payer to provide a payment reference- something businesses are very familar with.
+> This approach may be suitable for business-to-business (B2B) payments which want an alternative to paying opaque and complicated card fees. This approach has the advantage of zero transaction fees, but is more suited to B2B transactions as it requires the bill payer to provide a payment reference- something businesses are very familar with.
 
 Takes advantage of 'developments' in Open Banking whereby modern
 banks offer API access **to individual account holders** (not via
