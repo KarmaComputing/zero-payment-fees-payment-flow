@@ -8,11 +8,13 @@ a Payment-Information-Service-Provider ([PISP](https://www.fca.org.uk/consumers/
 
 Allows a payment flow which:
 
-- Promts bill payer to make a payment to the company bank account
+- Prompts bill payer to make a payment to the company bank account
 - The bill payer must use the reference presented to them
-- In the background, the bank acount transactions are ['polled'](https://en.wikipedia.org/wiki/Polling_(computer_science)) to check for the existance
+- In the background, the bank account transactions are ['polled'](https://en.wikipedia.org/wiki/Polling_(computer_science)) to check for the existence
 of the payment
 - The payment is considered complete when/if if the payment reference, and amount match.
+
+![app screenshot form with inputs displaying the payment reference the bill payer must use, amount, and button to say when they have made payment](./docs-images/app-screenshot.png)
 
 The payment flow has advantages in that it:
 
@@ -25,14 +27,13 @@ The payment flow has disadvantages in that it:
 - Is a payment flow less familiar to customers (but arguably quite familiar to commercial payments/financial controllers where requiring a payment reference is
   standard practice)
 
-
-# Compatible banks
+## Compatible banks
 
 - Any UK bank which provided API access **to it's account holders** is compatible
   with this payment pattern.
 - The code here demonstrates the pattern using Starling Bank. The same pattern appears to be possible with Monzo bank (because the pattern has been seen used by vendors using that bank also).
 
-# Want some help?
+## Want some help?
 
 Would you like to implement this approach in your business?
 Feel free to reach out for support implementing this payment flow in your business.
